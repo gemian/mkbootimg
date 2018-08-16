@@ -1,0 +1,16 @@
+Source: mkbootimg
+Section: admin
+Priority: extra
+Maintainer: Adam Boardman <adamboardman@gmail.com>
+Build-Depends:
+ debhelper
+Standards-Version: 3.9.8
+Homepage: https://github.com/gemian/mkbootimg
+
+Package: mkbootimg
+Architecture: any
+Multi-Arch: same
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends}
+Description: Android boot image tool
