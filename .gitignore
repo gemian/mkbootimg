@@ -1,5 +1,2 @@
-*.o
-*.a
-*.exe
-mkbootimg
-unpackbootimg
+build/
+.idea/

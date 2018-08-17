@@ -26,8 +26,8 @@
 
 #include <string.h>
 
-#include "mincrypt/p256_ecdsa.h"
-#include "mincrypt/p256.h"
+#include "p256_ecdsa.h"
+#include "p256.h"
 
 int p256_ecdsa_verify(const p256_int* key_x, const p256_int* key_y,
                       const p256_int* message,

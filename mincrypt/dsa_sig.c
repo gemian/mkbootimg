@@ -26,8 +26,8 @@
 
 #include <string.h>
 
-#include "mincrypt/dsa_sig.h"
-#include "mincrypt/p256.h"
+#include "dsa_sig.h"
+#include "p256.h"
 
 /**
  * Trims off the leading zero bytes and copy it to a buffer aligning it to the end.

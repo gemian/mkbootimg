@@ -37,7 +37,7 @@
 #include <string.h>
 #include <stdio.h>
 
-#include "mincrypt/p256.h"
+#include "p256.h"
 
 const p256_int SECP256r1_n =  // curve order
   {{0xfc632551, 0xf3b9cac2, 0xa7179e84, 0xbce6faad, -1, -1, 0, -1}};

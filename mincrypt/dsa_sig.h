@@ -27,7 +27,7 @@
 #ifndef SYSTEM_CORE_INCLUDE_MINCRYPT_DSA_SIG_H_
 #define SYSTEM_CORE_INCLUDE_MINCRYPT_DSA_SIG_H_
 
-#include "mincrypt/p256.h"
+#include "p256.h"
 
 #ifdef __cplusplus
 extern "C" {

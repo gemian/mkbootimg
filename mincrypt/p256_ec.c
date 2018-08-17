@@ -38,7 +38,7 @@
 #include <string.h>
 #include <stdlib.h>
 
-#include "mincrypt/p256.h"
+#include "p256.h"
 
 typedef uint8_t u8;
 typedef uint32_t u32;

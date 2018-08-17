@@ -3,14 +3,21 @@ Section: admin
 Priority: extra
 Maintainer: Adam Boardman <adamboardman@gmail.com>
 Build-Depends:
- debhelper
+ debhelper (>= 10),
+ cmake,
+ pkg-config
 Standards-Version: 3.9.8
 Homepage: https://github.com/gemian/mkbootimg
+Vcs-Git: https://github.com/gemian/mkbootimg.git
 
 Package: mkbootimg
 Architecture: any
 Multi-Arch: same
 Depends:
+ ${misc:Depends},
  ${shlibs:Depends},
- ${misc:Depends}
+Conflicts:
+Replaces:
+Recommends:
 Description: Android boot image tool
+ Allows packing and unpacking of android boot images
