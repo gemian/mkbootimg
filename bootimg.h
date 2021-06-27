@@ -61,7 +61,7 @@ struct boot_img_hdr
     /* Supplemental command line data; kept here to maintain
      * binary compatibility with older versions of mkbootimg */
     uint8_t extra_cmdline[BOOT_EXTRA_ARGS_SIZE];
-} __attribute__((packed));
+};
 
 /*
 ** +-----------------+ 
